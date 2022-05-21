@@ -33,3 +33,7 @@ a {
     filter: hue-rotate(360deg);
   }
 }
+
+.rainbow_top::before {
+  animation: colors 10s ease-in-out alternate-reverse infinite;
+}
