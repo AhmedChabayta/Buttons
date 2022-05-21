@@ -4,7 +4,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      hueRotate: {
+        "-270": "-270deg",
+        270: "270deg",
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),

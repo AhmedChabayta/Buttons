@@ -5,13 +5,8 @@ import Sidebar from "./Sidebar";
 export const Layout = ({ children }) => {
   return (
     <div className="overflow-hidden h-screen">
-      <header>
-        <Nav />
-      </header>
-      <main className="flex">
-        <Sidebar />
-        {children}
-      </main>
+      <header></header>
+      <main className="flex">{children}</main>
       <footer></footer>
     </div>
   );

@@ -34,6 +34,15 @@ a {
   }
 }
 
-.rainbow_top::before {
-  animation: colors 10s ease-in-out alternate-reverse infinite;
+.pepsi::before {
+  animation: 10s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50px);
+  }
 }

@@ -7,9 +7,6 @@ import {
 function Sidebar() {
   return (
     <div className="h-screen flex flex-col items-start justify-start space-y-10 p-5 text-black">
-      <LibraryIcon className="w-7" />
-      <ClipboardListIcon className="w-7" />
-      <ArchiveIcon className="w-7" />
     </div>
   );
 }
